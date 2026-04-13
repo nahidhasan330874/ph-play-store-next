@@ -1,8 +1,14 @@
+import Banner from "@/components/homepage/Banner";
+import Stats from "@/components/homepage/Stats";
+import TrendingApps from "@/components/homepage/TrendingApps";
  
 export default function Home() {
   return (
      <div>
-       <h2 className="bg-red-500 text-white text-4xl "> Hello Next.JS </h2>
+        <Banner></Banner>
+        <Stats></Stats>
+         <TrendingApps from="apps"/>
+
      </div>
   );
 }
